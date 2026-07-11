@@ -4,26 +4,44 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    padding-top: 80px;
 }
 
 header {
-    position: fixed;
     width: 100%;
 }
+
 /* Nav-Bar */
 .nav-bar {
+    position: fixed;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    z-index: 9999;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     background-color: #272626;
     border-radius: 10px;
-    margin: 6px;
+
+    transition: top .3s ease;
 }
-       /* logo */
+
+.nav-bar.hide {
+    transform: translateY(-100%);
+}
+
+/* logo */
 .logo img {
     max-height: 50px;
     display: block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
 }
    /* nav-bar links */
 .nav-links {
@@ -51,7 +69,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 6px;
-    margin-top: 80px;
+    margin-top: 20px;
     padding: 6px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -69,6 +87,11 @@ header {
 .wellcome-image img {
     max-height: 400px;
     display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wellcome-image img:hover {
+    transform: scale(1.05);
 }
 
 
@@ -194,4 +217,106 @@ a:hover {
     margin: 0;
     font-size: 16px;
     padding: 7px;
+}
+
+/* branding */
+.branding {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: 6px;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #272626;
+}
+
+.b-1 img {
+    height: 175px;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.b-2 img {
+    height: 175px;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.b-3 img {
+    height: 175px;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.b-1 img:hover, .b-2 img:hover, .b-3 img:hover {
+    transform: scale(1.05);
+}
+
+.b-1 img.seventeen {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.b-2 img.three {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.b-3 img.seven {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.b-text {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.b-a {
+    color: #222020;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b-a:hover {
+    color: rgb(236, 73, 73);
+}
+
+/* fast food */
+.food-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fast-food {
+    justify-content: space-around;
+    align-items: center;
+    margin: 6px;
+    padding: 6px;
+    background-color: #222020;
+    border-radius: 10px;
+}
+
+.food-one {
+    display: flex;
+}
+
+.food-one img {
+    height: 400px;
+    margin-right: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-one img:hover{
+    transform: scale(1.05);
 }

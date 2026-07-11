@@ -6,11 +6,15 @@
     <!-- favicon  -->
     <link rel="icon" type="image/png" href="/images/logo.png">
 
+      <!-- animation on scroll link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
     <title>ZZZZJUTTZONE</title>
     <!-- Font Awesome Icon -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
              <!-- css link -->
     <link rel="stylesheet" href="style.css">  
+
 </head>
 <body>
     <header>
@@ -23,28 +27,64 @@
                    <!-- navigation tabs -->
          <ul class="nav-links">
             <li><a href="/index.html">Home</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
          </ul>
     </nav>
     </header>
     <hr style="visibility: hidden;">
+
         <!-- WELLCOME PAGE -->
-    <div class="wellcome-page">
+    <div class="wellcome-page" data-aos="fade-up">
         <div class="text">
             <h1>WELLCOME TO<br><u>ZzzzJuttZone</u></h1>
-            <p>At <u>ZzzzJutt Zone</u>, we transform ideas into <u>creative</u> visual experiences. From <u>Brand Identity</u> and <u>Logo Design</u> to <u>Social Media Graphics</u> and <u>Digital Solutions</u>, we create designs that help businesses <u>Grow</u>, <u>Stand Out</u>, and leave a <u>Lasting Impression</u>.</p>
+            <p>At ZzzzJutt Zone, we transform ideas into creative visual experiences. From Brand Identity and Logo Design to Social Media Graphics and Digital Solutions, we create designs that help businesses Grow, Stand Out, and leave a Lasting Impression.</p>
         </div>
         <div class="wellcome-image">
             <img src="/images/zzzzjuttzone1.png" alt="Logo">
         </div>
     </div>
 
+<!-- branding -->
+ <div class="b-text" data-aos="fade-up">
+    <a class="b-a" href="#">Our Work</a>
+    <h3>Branding</h3>
+ </div>
+    <div class="branding">
+        <div class="b-1" data-aos="fade-up">
+            <a href="http://127.0.0.1:5500/images/1.png" target="_blank"><img class="one" src="/images/1.png" alt="Branding"></a>
+            <a href="http://127.0.0.1:5500/images/17.png" target="_blank"><img class="seventeen"
+             src="/images/17.png" alt="Branding"></a>
+        </div>
+        
+        <div class="b-2" data-aos="fade-up">
+            <a href="http://127.0.0.1:5500/images/9.png" target="_blank"><img class="nine" src="/images/9.png" alt="Branding"></a>
+            <a href="http://127.0.0.1:5500/images/3.png" target="_blank"><img class="three" src="/images/3.png" alt="Branding"></a>
+            <a href="http://127.0.0.1:5500/images/29.png" target="_blank"><img class="twenty-nine" src="/images/29.png" alt="Branding"></a>
+        </div>
+
+        <div class="b-3" data-aos="fade-up">
+            <a href="http://127.0.0.1:5500/images/35.png" target="_blank"><img class="thirty-five" src="/images/35.png" alt="Branding"></a>
+            <a href="http://127.0.0.1:5500/images/7.png" target="_blank"><img class="seven" src="/images/7.png" alt="Branding"></a>
+           
+        </div>
+    </div>
+
+<!-- fast food -->
+ <div class="food-text" data-aos="fade-up">
+    <h3>Fast Food</h3>
+ </div>
+<div class="fast-food">
+    <div class="food-one" data-aos="fade-up">
+        <a href="http://127.0.0.1:5500/fast-food images/3.jpg" target="_blank"><img src="/fast-food images/3.jpg" alt="fast food"></a>
+        <a href="http://127.0.0.1:5500/fast-food images/8.webp" target="_blank"><img src="/fast-food images/8.webp" alt="fast food"></a>
+    </div>
+</div>
 
   <!-- footer section -->
 <footer>
-    <div class="footer-container">
+    <div class="footer-container" data-aos="fade-up">
         <div class="footer-content">
             <h3>Contact Us</h3>
             <P>Email: zubairali6535668@gmail.com</P>
@@ -55,7 +95,7 @@
             <h3>Quick Links</h3>
             <ul class="links1">
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -80,7 +120,22 @@
      <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
 <script src="https://elfsightcdn.com/platform.js" async></script>
 <div class="elfsight-app-e46e1040-9075-4677-ab1b-652ce9fd07fc" data-elfsight-app-lazy></div>
+
         <!-- Javascript link -->             
     <script src="script.js"></script>
+
+
+        <!-- animation on scroll link -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000,      // Animation speed
+    once: true,          // Sirf ek dafa chale
+    offset: 100,         // Kitna scroll hone par animation start ho
+    easing: "ease-out"
+  });
+</script>
+
 </body>
 </html>
