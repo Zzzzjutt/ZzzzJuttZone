@@ -54,9 +54,15 @@ header {
     font-family: "roboto", sans-serif;
     font-weight: bold;
     color: #fff;
+
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+    text-decoration-color: #f1f3f1;
+    text-decoration-thickness: 2px;
     color: rgb(20, 173, 6);
 }
 
@@ -97,6 +103,9 @@ header {
 /* About section  */
 .about-text {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #02a70b;
+    text-decoration-thickness: 5px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(46, 46, 46);
     padding-top: 40px;
@@ -124,6 +133,7 @@ header {
 
 .about-heading h3 {
     display: block;
+    text-align: left;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     color: #008f07;
@@ -136,4 +146,154 @@ header {
     font-size: 20px;
     font-family: 'poppins', sans-serif;
     justify-content: center;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #222222;
+    padding-top: 50px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 33.3%;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p {
+    width: 195px;
+    margin: auto;
+    padding: 7px;
+    padding-left: 55px;
+    padding-right: 42px;
+}
+
+.footer-content ul {
+    text-align: center;
+    list-style: none;
+}
+
+.links1 {
+    margin-right: 29px;
+}
+
+.list {
+    padding: 0;
+}
+
+.list li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #008f07;
+    transition: .5s;
+}
+
+.list li:hover::before {
+    width: 70px;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #008f07;
+}
+
+.social-icons i:hover {
+    color: #008f07;
+}
+
+.bottom-bar {
+    background-color: #00a008;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-bar p {
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+
+    padding: 7px;
+}
+
+/* Box */
+.box-container{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+}
+
+.box1 img{
+    height: 70px;
+}
+
+.box1 h1{
+    font-size: 20px;
+    font-family: "Baloo Bhai 2", sans-serif;
+
+}
+
+.box2 img{
+    height: 70px;
+}
+
+.box3 img{
+    height: 70px;
+}
+.box4 img{
+    height: 70px;
 }

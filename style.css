@@ -89,6 +89,9 @@ header {
     margin-left: 10px;
     font-family: "Roboto", sans-serif;
 }
+.text u{
+    text-decoration-color: rgb(236, 73, 73);
+}
 
 /* wellcome-page image */
 .wellcome-image img {
