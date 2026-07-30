@@ -12,3 +12,15 @@ window.addEventListener("scroll", () => {
 
     lastScroll = currentScroll;
 });
+
+const menu=document.querySelector(".menu-toggle");
+const links=document.querySelector(".nav-links");
+
+menu.addEventListener("click",()=>{
+
+menu.classList.toggle("active");
+links.classList.toggle("active");
+
+});
+
+
