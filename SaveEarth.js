@@ -13,6 +13,7 @@ window.addEventListener("scroll", () => {
     lastScroll = currentScroll;
 });
 
+// emailjs link
 emailjs.init("soqociZpnSL7jqumd");
 
 const form = document.getElementById("contactForm");
@@ -63,5 +64,56 @@ form.addEventListener("submit", function (e) {
             alert("Failed to send message.");
 
         });
+
+});
+
+// Hamburger Menu
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+// Open / Close Menu
+menuToggle.addEventListener("click", (e) => {
+
+    e.stopPropagation();
+
+    menuToggle.classList.toggle("active");
+    navLinks.classList.toggle("active");
+
+});
+
+// Close Menu When Clicking Outside
+document.addEventListener("click", (e) => {
+
+    if (
+        !navLinks.contains(e.target) &&
+        !menuToggle.contains(e.target)
+    ) {
+        navLinks.classList.remove("active");
+        menuToggle.classList.remove("active");
+    }
+
+});
+
+// Close Menu After Clicking a Link
+document.querySelectorAll(".nav-links a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        navLinks.classList.remove("active");
+        menuToggle.classList.remove("active");
+
+    });
+
+});
+
+// Close Menu On Scroll
+window.addEventListener("scroll", () => {
+
+    if (navLinks.classList.contains("active")) {
+
+        navLinks.classList.remove("active");
+        menuToggle.classList.remove("active");
+
+    }
 
 });

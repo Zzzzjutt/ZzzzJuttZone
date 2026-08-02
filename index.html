@@ -71,7 +71,7 @@
     <!-- branding -->
     <div class="b-text" data-aos="fade-right">
         <a class="b-a" href="#">Our Work</a>
-        <h3 style="text-align: center; font-size: 25px;">Branding</h3>
+        <h3 style="text-align: center; font-size: 25px; text-decoration: underline; text-decoration-color: rgb(253, 253, 253); text-decoration-thickness: 3px;">Branding</h3>
     </div>
     <div class="branding">
         <div class="b-1" data-aos="fade-right">
@@ -104,16 +104,16 @@
 
     <!-- fast food -->
     <div class="food-text" data-aos="zoom-in">
-        <h3 style="text-align: center; font-size: 25px;">Fast Food</h3>
+        <h3 style="text-align: center; font-size: 25px; text-decoration: underline; text-decoration-color: rgb(253, 253, 253); text-decoration-thickness: 3px;">Fast Food</h3>
     </div>
     <div class="fast-food">
         <div class="food-one">
-            <a href="http://127.0.0.1:5500/fast-food images/8.webp" data-aos="fade-right" target="_blank"><img
+            <a href="http://127.0.0.1:5500/fast-food images/8.webp" data-aos="zoom-in" target="_blank"><img
                     src="/fast-food images/8.webp" alt="fast food"></a>
-            <a href="http://127.0.0.1:5500/fast-food images/3.jpg" data-aos="fade-left" target="_blank"><img
+            <a href="http://127.0.0.1:5500/fast-food images/3.jpg" data-aos="zoom-in" target="_blank"><img
                     src="/fast-food images/3.jpg" alt="fast food"></a>
         </div>
-        <div class="food-two" data-aos="fade-up">
+        <div class="food-two" data-aos="zoom-in">
             <a href="http://127.0.0.1:5500/fast-food images/1.jpg" target="_blank"><img src="/fast-food images/1.jpg"
                     alt="fas food burger"></a>
         </div>
@@ -123,7 +123,7 @@
     <!-- cards -->
 
     <div class="card-text">
-        <h3 style="text-align: center; font-size: 25px;">Projects</h3>
+        <h3 style="text-align: center; font-size: 25px; text-decoration: underline; text-decoration-color: rgb(253, 253, 253); text-decoration-thickness: 3px;">Projects</h3>
     </div>
 
     <div class="card-container">
@@ -157,6 +157,49 @@
             </div>
         </div>
     </div>
+
+    <!-- contact us section -->
+    <div class="contact-container" data-aos="fade-up">
+
+        <div class="contact" data-aos="fade-right">
+
+            <h1>Contact Us</h1>
+
+            <form id="contactForm">
+
+                <div class="groups">
+
+                    <div class="group1">
+
+                        <input type="text" name="from_name" placeholder="Username" maxlength="25" required>
+
+                        <input type="email" name="from_email" placeholder="Email Address" maxlength="40" required>
+
+                    </div>
+
+                    <div class="group2">
+
+                        <textarea name="message" placeholder="Message" required></textarea>
+
+                    </div>
+
+                </div>
+
+                <button class="contact-btn" type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+    <!-- Contact toast message -->
+    <div id="toast" class="toast">
+        Message sent successfully!
+    </div>
+
 
 
     <!-- footer section -->
@@ -196,6 +239,10 @@
             <p>&copy; 2026 ZzzzJuttZone. All rights reserved.</p>
         </div>
     </footer>
+
+
+    <!-- emailjs link -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <!-- whatsapp -->
     <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
