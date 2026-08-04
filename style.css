@@ -453,7 +453,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-image: url(/images/tree\ line.jpg);
+    background-image: url(/images/office.jpg);
     border-radius: 8px 8px 0 0;
     background-size: cover;
     background-position: center;
@@ -487,13 +487,13 @@ a:hover {
     background: white;
     font-family: "open sans", sans-serif;
     border: none;
-    border-color: #00a008;
+    border-color: #ffffff;
     border-radius: 4px;
 }
 
 .group1 input:hover {
-    border: 1px solid #00a008;
-    box-shadow: 0 0 5px #00a008;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
 }
 
 .group2 textarea {
@@ -510,15 +510,15 @@ a:hover {
 }
 
 .group2 textarea:hover {
-    border: 1px solid #00a008;
-    box-shadow: 0 0 5px #00a008;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
 }
 
 .group1 input:focus,
 .group2 textarea:focus {
     outline: none;
-    border: 1px solid #00a008;
-    box-shadow: 0 0 5px #00a008;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
 }
 
 .contact-btn {
@@ -526,7 +526,7 @@ a:hover {
     width: 40%;
     height: 40px;
     margin: 20px auto;
-    background-color: #00a008;
+    background-color: #333;
     color: white;
     font-size: 20px;
     font-family: "open sans", sans-serif;
@@ -539,7 +539,7 @@ a:hover {
 
 .contact-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px #00a008;
+    box-shadow: 0 0 20px #ffffff;
 }
 
 /* Contact Toast Notification */
@@ -547,8 +547,8 @@ a:hover {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: #16a34a;
-    color: white;
+    background: #ffffff;
+    color: #333;
     padding: 14px 22px;
     border-radius: 10px;
     font-size: 16px;
