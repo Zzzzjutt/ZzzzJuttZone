@@ -278,6 +278,7 @@ a:hover {
     width: 100%;
     max-width: 320px;
     height: auto;
+    padding-bottom: 5px;
 
     display: block;
     border-radius: 0.625rem;
@@ -319,8 +320,8 @@ a:hover {
 
 .b-a:hover {
     text-decoration: underline;
-    text-decoration-color: #0ccf9e;
-    color: rgb(236, 73, 73);
+    text-decoration-color: #ffffff;
+    color: #000000;
 }
 
 /* fast food */
