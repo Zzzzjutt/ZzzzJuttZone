@@ -142,6 +142,10 @@ footer {
     width: 33.3%;
 }
 
+#email{
+    cursor: pointer;
+}
+
 .footer-content p {
     width: 190px;
     margin: auto;
@@ -400,8 +404,13 @@ a:hover {
     overflow: hidden;
     border-radius: 0.5rem;
     margin: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px #ffffff;
+}
 
 .card img {
     width: 100%;
