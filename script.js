@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
     if (currentScroll > lastScroll && currentScroll > 100) {
         navbar.style.top = "-100px";
     } else {
-        navbar.style.top = "0";
+        navbar.style.top = "6px";
     }
 
     lastScroll = currentScroll;
