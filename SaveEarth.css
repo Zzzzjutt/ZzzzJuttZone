@@ -54,29 +54,39 @@ header {
     display: flex;
     align-items: center;
     list-style: none;
+    gap: 20px;
+    padding: 10px;
 }
 
 .nav-links a {
     display: block;
-    padding: 6px;
+    position: relative;
     align-items: center;
     text-decoration: none;
     font-size: 18px;
     font-family: "roboto", sans-serif;
     font-weight: bold;
     color: #fff;
-
-    transition: transform 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
-    transform: scale(1.05);
-    text-decoration: underline;
-    text-decoration-color: #f1f3f1;
-    text-decoration-thickness: 2px;
     color: rgb(20, 173, 6);
 }
 
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
 
 /* home section */
 

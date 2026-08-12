@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: #e0e0e0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272626;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 10px;
+}
+
+.logo img {
+    display: block;
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    position: relative;
+    color: #0ccf9e;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #0ccf9e;
+    transition: all .3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #ec4949;
+}
+
+/* Work text section */
+.work-section {
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/designer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-section h1 {
+    position: relative;
+    color: #f3faf8;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+}
+
+.work-section h3 {
+    color: #f3faf8;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.work-section p {
+    color: #f3faf8;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.about-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.about-line {
+    width: 100px;
+    height: 2px;
+    background: white;
+    flex-shrink: 0;
+}
+
+.text-wrapper {
+    color: #0ccf9e;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#changingText {
+    display: inline-block;
+    animation: slideText 4s linear infinite;
+}
+
+@keyframes slideText {
+    0% {
+        transform: translateX(120px);
+    }
+
+    100% {
+        transform: translateX(-150px);
+    }
+}

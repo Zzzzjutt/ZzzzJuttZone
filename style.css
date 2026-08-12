@@ -24,7 +24,6 @@ header {
     left: 6px;
     right: 6px;
     z-index: 9999;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,11 +61,27 @@ header {
 
 /* Links styling */
 .nav-links a {
+    position: relative;
     color: rgb(12, 207, 158);
     text-decoration: none;
     font-size: 1.125rem;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #0ccf9e;
+    transition: all .3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
 }
 
 /* Navigation Bar Hover Effect */
@@ -96,12 +111,19 @@ header {
     font-family: "Roboto", sans-serif;
 }
 
-.text u {
-    text-decoration-color: rgb(236, 73, 73);
+.text u::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    background-color: #0ccf9e;
+    transition: all .5s ease;
 }
 
-.text u:hover {
-    text-decoration-color: rgb(12, 207, 158);
+.text u:hover::after {
+    width: 100%;
 }
 
 /* wellcome-page image */
@@ -143,7 +165,7 @@ footer {
     width: 33.3%;
 }
 
-#email{
+#email {
     cursor: pointer;
 }
 
@@ -318,15 +340,43 @@ a:hover {
     font-size: 2.5rem;
 }
 
+.b-text h3 {
+    display: block;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50;
+
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 3px;
+}
+
 .b-a {
+    position: relative;
     color: #000000;
     font-family: "Roboto", sans-serif;
 }
 
 .b-a:hover {
-    text-decoration: underline;
-    text-decoration-color: #ffffff;
     color: #000000;
+}
+
+.b-a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+
+.b-a:hover::after {
+    width: 100%;
 }
 
 /* fast food */
@@ -408,7 +458,7 @@ a:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 25px #ffffff;
 }
