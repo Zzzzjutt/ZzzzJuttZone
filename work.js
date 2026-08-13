@@ -1,3 +1,4 @@
+//  Work Subtitle
 const textElement = document.getElementById("changingText");
 
 const texts = [
@@ -19,3 +20,4 @@ textElement.addEventListener("animationiteration", () => {
 
     textElement.textContent = texts[currentIndex];
 });
+

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@emailjs/browser": "^4.4.1"
+    "@emailjs/browser": "^4.4.1",
+    "lightbox2": "^2.12.0"
   }
 }

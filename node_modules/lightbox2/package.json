@@ -1,0 +1,46 @@
+{
+  "name": "lightbox2",
+  "version": "2.12.0",
+  "author": "Lokesh Dhakar <lokesh.dhakar@gmail.com>",
+  "description": "The original Lightbox script. Uses jQuery.",
+  "keywords": [
+    "lightbox",
+    "lightbox2",
+    "overlay",
+    "gallery",
+    "slideshow",
+    "images"
+  ],
+  "homepage": "http://lokeshdhakar.com/projects/lightbox2/",
+  "main": "./dist/js/lightbox.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokesh/lightbox2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lokesh/lightbox2/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/lokesh/lightbox2/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "lint": "eslint src/js/lightbox.js",
+    "build": "npm run lint && npm run build:copy && npm run build:concat && npm run build:uglify && npm run build:cssmin",
+    "build:copy": "mkdir -p dist/js dist/css dist/images && cp src/js/* dist/js/ && cp src/css/* dist/css/ && cp src/images/* dist/images/",
+    "build:concat": "cat node_modules/jquery/dist/jquery.js src/js/lightbox.js > dist/js/lightbox-plus-jquery.js",
+    "build:uglify": "uglifyjs src/js/lightbox.js -o dist/js/lightbox.min.js --source-map && uglifyjs dist/js/lightbox-plus-jquery.js -o dist/js/lightbox-plus-jquery.min.js --source-map",
+    "build:cssmin": "cleancss src/css/lightbox.css -o dist/css/lightbox.min.css",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "eslint": "^10.0.2",
+    "uglify-js": "^3.19.3"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}

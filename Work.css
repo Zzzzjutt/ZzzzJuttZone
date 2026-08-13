@@ -105,19 +105,19 @@ header {
     font-family: "Poppins", sans-serif;
 }
 
+/* Work SUBUTITLE */
 
-
-.about-subtitle {
+.work-subtitle {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2px;
 }
 
-.about-line {
-    width: 100px;
+.work-line {
+    width: 190px;
     height: 2px;
-    background: white;
+    background: #ec4949;
     flex-shrink: 0;
 }
 
@@ -130,7 +130,7 @@ header {
 
 #changingText {
     display: inline-block;
-    animation: slideText 4s linear infinite;
+    animation: slideText 2.5s linear infinite;
 }
 
 @keyframes slideText {
