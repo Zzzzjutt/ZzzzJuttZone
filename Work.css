@@ -73,7 +73,7 @@ header {
 .work-section {
     width: 100%;
     height: 400px;
-    background-image: url(/images/designer.png);
+    background-image: url(/Assets/Branding\ and\ designs/designer.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,3 +142,110 @@ header {
         transform: translateX(-150px);
     }
 }
+
+/*  work images section */
+.work {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+/* work 1 */
+.work1 {
+    display: flex;
+    margin: 10px;
+    gap: 60px;
+}
+
+.work1 img {
+    width: 100%;
+    padding: 0px;
+    border: blue;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work1 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 2 */
+.work2 {
+    display: block;
+    margin: 10px;
+}
+
+.work2 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work2 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 3 */
+.work3 {
+    display: flex;
+    gap: 60px;
+    margin: 20px;
+}
+
+.work3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work3 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 4 */
+.work4 {
+    display: flex;
+    margin: 20px;
+    gap: 40px;
+}
+
+.work4 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work4 img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* See More Btn
+.see-more-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#seeMoreBtn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #111;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#seeMoreBtn:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+} */
