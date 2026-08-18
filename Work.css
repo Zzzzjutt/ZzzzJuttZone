@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "open sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     list-style: none;
 }
 
@@ -19,7 +19,7 @@ header {
     display: flex;
     position: absolute;
     z-index: 9999;
-    width: 100%;
+    width: calc(100% - 20px);
     justify-content: space-between;
     align-items: center;
     background-color: #272626;
@@ -155,6 +155,8 @@ header {
 /* work 1 */
 .work1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
     gap: 60px;
 }
@@ -173,7 +175,9 @@ header {
 
 /* work 2 */
 .work2 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 
@@ -190,6 +194,8 @@ header {
 /* work 3 */
 .work3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 60px;
     margin: 20px;
 }
@@ -208,6 +214,8 @@ header {
 /* work 4 */
 .work4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
     gap: 40px;
 }
@@ -222,9 +230,138 @@ header {
     transform: scale(1.05);
 }
 
+/* Work 5 */
+.work5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 40px;
+}
 
+.work5 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
 
-/* See More Btn
+.work5 img:hover {
+    transform: scale(1.05);
+}
+
+/* Work 6 */
+.work6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 40px;
+}
+
+.work6 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work6 img:hover {
+    transform: scale(1.03);
+}
+
+/* work 7 */
+.work7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.work7 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work7 img:hover {
+    transform: scale(1.02);
+}
+
+/* work 8 */
+.work8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 40px;
+}
+
+.work8 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work8 img:hover {
+    transform: scale(1.03);
+}
+
+/* work 9 */
+.work9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.work9 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work9 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 10  */
+.work10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.work10 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.work10 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 11 */
+.work11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.work11 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work11 img:hover {
+    transform: scale(1.05);
+}
+
+/* See More Btn */
 .see-more-container {
     width: 100%;
     display: flex;
@@ -248,4 +385,1151 @@ header {
 #seeMoreBtn:hover {
     transform: translateY(-3px);
     opacity: 0.85;
-} */
+}
+
+/* UMH LOGO */
+.umh-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.umh-logo img {
+    height: 150px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.umh-logo img:hover {
+    transform: scale(1.1);
+}
+
+/* unh title */
+.titile-text {
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+    color: #2e2d2d;
+    margin: 20px;
+}
+
+.titile-text:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-style: wavy;
+}
+
+/* umh-design */
+.umh-design {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 20px;
+    grid-gap: 20px;
+}
+
+.umh-design img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.umh-design img:hover {
+    transform: scale(1.05);
+}
+
+/* remoteVa-logo */
+.remoteVa-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.remoteVa-logo img {
+    height: 200px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.remoteVa-logo img:hover {
+    transform: scale(1.1);
+}
+
+/* Remote VA Design */
+.remoteVA-design {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 20px;
+    grid-gap: 20px;
+}
+
+.remoteVA-design img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.remoteVA-design img:hover {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   GLOBAL RESPONSIVE FIX
+   Same responsive system as other pages
+========================================================= */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   NAVBAR RESPONSIVE FIX
+========================================================= */
+
+.nav-container {
+    width: calc(100% - 20px);
+    max-width: none;
+    margin: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-width: 100%;
+    height: 50px;
+}
+
+
+/* =========================================================
+   WORK HERO RESPONSIVE
+========================================================= */
+
+.work-section {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    padding: 120px 20px 60px;
+    box-sizing: border-box;
+}
+
+.work-section h1 {
+    font-size: clamp(28px, 4vw, 38px);
+}
+
+.work-section h3 {
+    font-size: clamp(22px, 3vw, 30px);
+}
+
+.work-section p {
+    font-size: clamp(16px, 2.2vw, 26px);
+    max-width: 900px;
+}
+
+
+/* =========================================================
+   WORK SUBTITLE
+========================================================= */
+
+.work-subtitle {
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.work-line {
+    width: clamp(50px, 15vw, 190px);
+}
+
+.text-wrapper {
+    width: 150px;
+}
+
+
+/* =========================================================
+   MAIN WORK SECTION
+========================================================= */
+
+.work {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 50px auto 20px;
+
+    padding: 0 25px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   ALL WORK ROWS
+========================================================= */
+
+.work1,
+.work2,
+.work3,
+.work4,
+.work5,
+.work6,
+.work7,
+.work8,
+.work9,
+.work10,
+.work11 {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+
+    margin: 20px 0;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   ALL WORK IMAGES
+========================================================= */
+
+.work1 img,
+.work2 img,
+.work3 img,
+.work4 img,
+.work5 img,
+.work6 img,
+.work7 img,
+.work8 img,
+.work9 img,
+.work10 img,
+.work11 img {
+
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+
+    min-width: 0;
+
+    display: block;
+
+    object-fit: contain;
+
+    border-radius: 5px;
+
+    transition: transform .3s ease;
+}
+
+
+/* Hover */
+
+.work1 img:hover,
+.work2 img:hover,
+.work3 img:hover,
+.work4 img:hover,
+.work5 img:hover,
+.work6 img:hover,
+.work7 img:hover,
+.work8 img:hover,
+.work9 img:hover,
+.work10 img:hover,
+.work11 img:hover {
+
+    transform: scale(1.03);
+}
+
+
+/* =========================================================
+   WORK 10 SPECIAL IMAGE
+========================================================= */
+
+.work10 img {
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   UMH LOGO
+========================================================= */
+
+.umh-logo {
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.umh-logo img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   UMH TITLE
+========================================================= */
+
+.titile-text {
+    font-size: clamp(25px, 4vw, 34px);
+    margin: 25px 15px;
+}
+
+
+/* =========================================================
+   UMH DESIGN
+========================================================= */
+
+.umh-design {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 20px;
+
+    margin: 30px auto;
+
+    padding: 0 25px;
+
+    box-sizing: border-box;
+}
+
+.umh-design img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* =========================================================
+   REMOTE VA LOGO
+========================================================= */
+
+.remoteVa-logo {
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.remoteVa-logo img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   REMOTE VA DESIGN
+========================================================= */
+
+.remoteVA-design {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 20px;
+
+    margin: 30px auto;
+
+    padding: 0 25px;
+
+    box-sizing: border-box;
+}
+
+.remoteVA-design img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* =========================================================
+   TABLET / SURFACE PRO / SMALL LAPTOP
+   1200px
+========================================================= */
+
+@media (max-width:1200px) {
+
+    .nav-container {
+        padding: 12px 20px;
+    }
+
+    .work {
+        padding: 0 20px;
+    }
+
+    .work1,
+    .work2,
+    .work3,
+    .work4,
+    .work5,
+    .work6,
+    .work7,
+    .work8,
+    .work9,
+    .work10,
+    .work11 {
+
+        gap: 25px;
+    }
+
+    .umh-design,
+    .remoteVA-design {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        padding: 0 20px;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   992px
+========================================================= */
+
+@media (max-width:992px) {
+
+    .nav-container {
+        position: absolute;
+
+        width: calc(100% - 20px);
+
+        margin: 10px;
+
+        padding: 12px 18px;
+
+        border-radius: 8px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+
+    /* Hero */
+
+    .work-section {
+
+        min-height: 380px;
+
+        padding:
+            120px 25px 50px;
+    }
+
+    .work-section h1 {
+        font-size: 34px;
+    }
+
+    .work-section h3 {
+        font-size: 27px;
+    }
+
+    .work-section p {
+        font-size: 20px;
+        max-width: 800px;
+    }
+
+
+    /* Work */
+
+    .work {
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+
+    .work1,
+    .work2,
+    .work3,
+    .work4,
+    .work5,
+    .work6,
+    .work7,
+    .work8,
+    .work9,
+    .work10,
+    .work11 {
+
+        gap: 20px;
+    }
+
+
+    /* UMH */
+
+    .umh-design,
+    .remoteVA-design {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 18px;
+
+        padding: 0 20px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE / SMALL TABLET
+   768px
+========================================================= */
+
+@media (max-width:768px) {
+
+    /* Navbar */
+
+    .nav-container {
+
+        position: absolute;
+
+        width: calc(100% - 20px);
+
+        margin: 10px;
+
+        padding: 12px 15px;
+
+        border-radius: 8px;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+
+
+    /* Hero */
+
+    .work-section {
+
+        min-height: 380px;
+
+        padding:
+            120px 20px 50px;
+    }
+
+    .work-section h1 {
+        font-size: 30px;
+    }
+
+    .work-section h3 {
+        font-size: 24px;
+    }
+
+    .work-section p {
+        font-size: 17px;
+        line-height: 1.6;
+        max-width: 650px;
+    }
+
+
+    /* Subtitle */
+
+    .work-subtitle {
+        gap: 5px;
+    }
+
+    .work-line {
+        width: 60px;
+    }
+
+    .text-wrapper {
+        width: 130px;
+    }
+
+
+    /* Main Work */
+
+    .work {
+
+        width: 100%;
+
+        margin: 35px auto;
+
+        padding: 0 15px;
+    }
+
+
+    /* All work rows become vertical */
+
+    .work1,
+    .work2,
+    .work3,
+    .work4,
+    .work5,
+    .work6,
+    .work7,
+    .work8,
+    .work9,
+    .work10,
+    .work11 {
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 20px;
+
+        margin: 20px 0;
+    }
+
+
+    /* Images */
+
+    .work1 img,
+    .work2 img,
+    .work3 img,
+    .work4 img,
+    .work5 img,
+    .work6 img,
+    .work7 img,
+    .work8 img,
+    .work9 img,
+    .work10 img,
+    .work11 img {
+
+        width: 100%;
+
+        height: auto;
+
+        max-width: 100%;
+
+        object-fit: contain;
+    }
+
+
+    .work10 img {
+        height: auto;
+        max-height: none;
+    }
+
+
+    /* UMH */
+
+    .umh-logo {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    .umh-logo img {
+        height: 120px;
+    }
+
+    .titile-text {
+        font-size: 28px;
+        margin: 20px 10px;
+    }
+
+
+    .umh-design,
+    .remoteVA-design {
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+        margin: 25px auto;
+
+        padding: 0 15px;
+    }
+
+
+    /* Remote VA */
+
+    .remoteVa-logo img {
+        height: 140px;
+    }
+
+
+    /* See More */
+
+    .see-more-container {
+        margin: 25px 0;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #seeMoreBtn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   576px
+========================================================= */
+
+@media (max-width:576px) {
+
+    .nav-container {
+
+        width: calc(100% - 12px);
+
+        margin: 6px;
+
+        padding: 10px 12px;
+    }
+
+    .logo img {
+        height: 42px;
+    }
+
+
+    /* Hero */
+
+    .work-section {
+
+        min-height: 350px;
+
+        padding:
+            110px 15px 40px;
+    }
+
+    .work-section h1 {
+        font-size: 26px;
+    }
+
+    .work-section h3 {
+        font-size: 21px;
+    }
+
+    .work-section p {
+
+        font-size: 15px;
+
+        line-height: 1.6;
+
+        padding: 0 5px;
+    }
+
+
+    /* Work */
+
+    .work {
+
+        padding: 0 10px;
+
+        margin-top: 25px;
+    }
+
+
+    .work1,
+    .work2,
+    .work3,
+    .work4,
+    .work5,
+    .work6,
+    .work7,
+    .work8,
+    .work9,
+    .work10,
+    .work11 {
+
+        gap: 15px;
+
+        margin: 15px 0;
+    }
+
+
+    .work1 img,
+    .work2 img,
+    .work3 img,
+    .work4 img,
+    .work5 img,
+    .work6 img,
+    .work7 img,
+    .work8 img,
+    .work9 img,
+    .work10 img,
+    .work11 img {
+
+        width: 100%;
+
+        border-radius: 5px;
+    }
+
+
+    /* UMH */
+
+    .umh-logo {
+        padding: 0 10px;
+    }
+
+    .umh-logo img {
+        height: 100px;
+    }
+
+    .titile-text {
+        font-size: 24px;
+    }
+
+
+    .umh-design,
+    .remoteVA-design {
+
+        padding: 0 10px;
+
+        gap: 15px;
+    }
+
+
+    .remoteVa-logo {
+        padding: 0 10px;
+    }
+
+    .remoteVa-logo img {
+        height: 110px;
+    }
+
+
+    /* Button */
+
+    #seeMoreBtn {
+        padding: 11px 25px;
+        font-size: 15px;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   400px
+========================================================= */
+
+@media (max-width:400px) {
+
+    .work-section {
+
+        min-height: 330px;
+
+        padding-top: 100px;
+    }
+
+    .work-section h1 {
+        font-size: 23px;
+    }
+
+    .work-section h3 {
+        font-size: 19px;
+    }
+
+    .work-section p {
+        font-size: 14px;
+    }
+
+    .work-line {
+        width: 40px;
+    }
+
+    .text-wrapper {
+        width: 110px;
+    }
+
+    .umh-logo img {
+        height: 85px;
+    }
+
+    .remoteVa-logo img {
+        height: 90px;
+    }
+}
+
+/* =========================================
+   MOBILE NAVBAR 
+========================================= */
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: calc(100% - 20px);
+        margin: 0;
+        padding: 12px 18px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-radius: 10px;
+        z-index: 9999;
+    }
+
+    /* Logo */
+    .logo img {
+        height: 45px;
+        width: auto;
+    }
+
+    /* Hamburger */
+    .menu-toggle {
+        display: flex;
+        width: 42px;
+        height: 42px;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        cursor: pointer;
+        z-index: 10001;
+    }
+
+    .menu-toggle span {
+        width: 28px;
+        height: 3px;
+        margin: 3px 0;
+
+        background: #0ccf9e;
+        border-radius: 20px;
+
+        transition: transform .3s ease,
+            opacity .25s ease;
+    }
+
+    /* Hamburger → X */
+    .menu-toggle.active span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    /* Mobile menu */
+    .nav-links {
+
+        position: fixed;
+
+        top: 85px;
+        left: 10px;
+        right: 10px;
+
+        width: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 18px;
+
+        padding: 0;
+
+        background: rgba(39, 38, 38, .75);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+
+        border: 1px solid rgba(255, 255, 255, .15);
+        border-radius: 15px;
+
+        max-height: 0;
+        overflow: hidden;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+        transform: translateY(-15px) scale(.97);
+
+        transition:
+            opacity .3s ease,
+            transform .3s ease,
+            max-height .35s ease,
+            padding .35s ease,
+            visibility .3s ease;
+    }
+
+    /* Open menu */
+    .nav-links.active {
+
+        max-height: 350px;
+
+        padding: 28px 0;
+
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+
+        transform: translateY(0) scale(1);
+    }
+
+    /* Menu links */
+    .nav-links li {
+
+        opacity: 0;
+        transform: translateY(-12px);
+
+        transition:
+            opacity .3s ease,
+            transform .3s ease;
+    }
+
+    .nav-links.active li {
+
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Stagger animation */
+    .nav-links.active li:nth-child(1) {
+        transition-delay: .05s;
+    }
+
+    .nav-links.active li:nth-child(2) {
+        transition-delay: .10s;
+    }
+
+    .nav-links.active li:nth-child(3) {
+        transition-delay: .15s;
+    }
+
+    .nav-links.active li:nth-child(4) {
+        transition-delay: .20s;
+    }
+
+    /* Links */
+    .nav-links a {
+
+        color: #0ccf9e;
+        font-size: 18px;
+        font-weight: bold;
+
+        padding: 5px 10px;
+
+        transition:
+            color .3s ease,
+            transform .3s ease;
+    }
+
+    .nav-links a:hover {
+        color: #ec4949;
+        transform: scale(1.05);
+    }
+
+}
+
+
+/* =========================================
+   MOBILE GLASS LIGHT ANIMATION
+========================================= */
+
+@media (max-width: 768px) {
+
+    .nav-links::before {
+
+        content: "";
+
+        position: absolute;
+        inset: 0;
+
+        background: linear-gradient(120deg,
+                transparent 20%,
+                rgba(255, 255, 255, .12) 50%,
+                transparent 80%);
+
+        transform: translateX(-120%);
+
+        opacity: 0;
+
+        pointer-events: none;
+    }
+
+    .nav-links.active::before {
+
+        opacity: 1;
+
+        animation: mobileGlassMove 2.5s linear infinite;
+    }
+
+    .nav-links:not(.active)::before {
+
+        opacity: 0;
+        animation: none;
+    }
+
+    @keyframes mobileGlassMove {
+
+        from {
+            transform: translateX(-120%);
+        }
+
+        to {
+            transform: translateX(120%);
+        }
+
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .nav-container {
+        top: 8px;
+        left: 8px;
+        width: calc(100% - 16px);
+
+        padding: 10px 15px;
+    }
+
+    .logo img {
+        height: 42px;
+    }
+
+    .nav-links {
+        top: 68px;
+        left: 8px;
+        right: 8px;
+    }
+
+    .nav-links a {
+        font-size: 17px;
+    }
+
+}

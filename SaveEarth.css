@@ -218,8 +218,12 @@ h3 {
     padding-right: 42px;
 }
 
-#email {
-    cursor: pointer;
+.footer-content a {
+    text-decoration: none;
+}
+
+#email{
+    color: #fff;
 }
 
 .footer-content ul {
@@ -275,12 +279,12 @@ h3 {
     font-size: 25px;
 }
 
-a {
+.links1 a {
     text-decoration: none;
     color: #fff;
 }
 
-a:hover {
+.links1 a:hover {
     color: #008f07;
 }
 
