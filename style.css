@@ -880,3 +880,55 @@ a:hover {
     }
 
 }
+
+
+/* =================================
+   NAVBAR GLASS SHINE ONLY
+================================= */
+
+@media (max-width: 768px) {
+
+    .nav-links {
+        overflow: hidden;
+    }
+
+    .nav-links::after {
+        content: "";
+        position: absolute;
+
+        top: 0;
+        left: -100%;
+
+        width: 50%;
+        height: 100%;
+
+        background: linear-gradient(110deg,
+                transparent,
+                rgba(255, 255, 255, 0.18),
+                transparent);
+
+        transform: skewX(-20deg);
+
+        pointer-events: none;
+
+        opacity: 0;
+    }
+
+    .nav-links.active::after {
+        opacity: 1;
+        animation: glassShine 2.5s ease-in-out infinite;
+    }
+
+}
+
+@keyframes glassShine {
+
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 150%;
+    }
+
+}

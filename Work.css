@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
     list-style: none;
 }
 
@@ -141,6 +140,133 @@ header {
     100% {
         transform: translateX(-150px);
     }
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #222020;
+    padding-top: 50px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 33.3%;
+}
+
+#email {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-content p {
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    padding-left: 29px;
+}
+
+.links1 {
+    margin-right: 29px;
+}
+
+.footer-content h3 {
+    font-size: 1.25rem;
+    color: #f18930;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content ul {
+    text-align: center;
+    list-style: none;
+}
+
+.list {
+    padding: 0;
+}
+
+.list li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition: .5s;
+}
+
+.list li:hover::before {
+    width: 70px;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #f18930;
+}
+
+.social-icons i:hover {
+    color: #f18930;
+}
+
+.bottom-bar {
+    background-color: #f18930;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-bar p {
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+
+    padding: 7px;
 }
 
 /*  work images section */

@@ -8,6 +8,13 @@
     <link rel="shortcut icon" href="/Assets/Branding and designs/logo1.png" type="image/x-icon">
     <!-- Link CSS -->
     <link rel="stylesheet" href="Work.css">
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- animation on scroll link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
     <!-- light box css link -->
     <link rel="stylesheet" href="/node_modules/lightbox2/dist/css/lightbox.css">
 
@@ -37,16 +44,16 @@
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="Work.html">Work</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!--first  Work section -->
     <div class="work-section">
-        <h1>MY CREATIVE WORK</h1>
+        <h1 data-aos="fade-right">MY CREATIVE WORK</h1>
 
-        <div class="work-subtitle">
+        <div class="work-subtitle" data-aos="fade-left">
             <span class="work-line"></span>
 
             <div class="text-wrapper">
@@ -54,8 +61,8 @@
             </div>
         </div>
 
-        <h3>Design that speaks without words.</h3>
-        <p>Bold ideas. Clean visuals. Meaningful experiences.</p>
+        <h3 data-aos="fade-right">Design that speaks without words.</h3>
+        <p data-aos="fade-right">Bold ideas. Clean visuals. Meaningful experiences.</p>
     </div>
 
     <!-- work images section -->
@@ -158,8 +165,11 @@
 
         <!-- WORK 11 -->
         <div class="work11">
-            <a href="/Assets/Branding and designs/27.png" data-lightbox="work" data-title="Product Branding"><img
-                    src="/Assets/Branding and designs/27.png" alt="Product Branding"></a>
+            <a href="/Assets/Branding and designs/Logo Design2.png" data-lightbox="work" data-title="Logo Design"><img
+                    src="/Assets/Branding and designs/Logo Design2.png" alt="Logo Design"></a>
+
+            <a href="/Assets/Branding and designs/Logo Design1.png" data-lightbox="work" data-title="Logo Design"><img
+                    src="/Assets/Branding and designs/Logo Design1.png" alt="Logo Design"></a>
         </div>
 
     </div>
@@ -206,8 +216,6 @@
             data-title="UMH Billing"><img src="/Assets/Branding and designs/UMH DESIGN 9.jpeg" alt="UMH Design"></a>
 
     </div>
-
-
 
     <!-- Remote VA logo -->
     <div class="remoteVa-logo">
@@ -256,12 +264,66 @@
 
 
 
+    <!-- footer section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content" data-aos="fade-right">
+                <h3>Contact Us</h3>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=zubairali6535668@gmail.com"
+                    target="_blank>">
+                    <P id="email"> zubairali6535668@gmail.com</P>
+                </a>
+                <P>Phone: +92 301 6535668</P>
+                <p>Address: Lahore, Pakistan</p>
+            </div>
+            <div class="footer-content" data-aos="zoom-in">
+                <h3>Quick Links</h3>
+                <ul class="links1">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="Work.html">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-content" data-aos="fade-left">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/profile.php?id=61571597091619" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://x.com/ZzzzjuttZone" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/zzzzjut1zone/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/112508340/admin/page-posts/published/"
+                            target="_blank"><i class="fab fa-linkedin-in" target="_blank"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=%2B923016535668&text&type=phone_number&app_absent=0"
+                            target="_blank"><i class="fab fa-whatsapp" target="_blank"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2026 ZzzzJuttZone,Sajjad. All rights reserved.</p>
+        </div>
+    </footer>
+
 
     <!-- whatsapp -->
     <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
     <div class="elfsight-app-e46e1040-9075-4677-ab1b-652ce9fd07fc" data-elfsight-app-lazy></div>
 
+
+
+    <!-- animation on scroll link -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,      // Animation speed
+            once: true,          // Sirf ek dafa chale
+            offset: 90,         // Kitna scroll hone par animation start ho
+            easing: "ease-in-out"
+        });
+    </script>
 
     <!-- js link -->
     <script src="work.js"></script>
