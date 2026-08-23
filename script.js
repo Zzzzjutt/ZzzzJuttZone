@@ -26,7 +26,7 @@ form.addEventListener("submit", function (e) {
 
     // Button Disable
     btn.disabled = true;
-    btn.innerHTML = "Sending...";
+    btn.innerHTML = "SUBMITTING...";
 
     emailjs.sendForm(
         "service_8gnjyhd",
@@ -44,13 +44,13 @@ form.addEventListener("submit", function (e) {
 
             // Button Enable
             btn.disabled = false;
-            btn.innerHTML = "Send Message";
+            btn.innerHTML = "SUBMIT";
 
             setTimeout(() => {
 
                 toast.classList.remove("show");
 
-            }, 3000);
+            }, 8000);
 
         })
 
@@ -59,7 +59,7 @@ form.addEventListener("submit", function (e) {
             console.log(error);
 
             btn.disabled = false;
-            btn.innerHTML = "Send Message";
+            btn.innerHTML = "SUBMIT";
 
             alert("Failed to send message.");
 
