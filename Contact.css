@@ -1,7 +1,3 @@
-/* =========================================
-   GLOBAL
-========================================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +10,10 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 body {
     background-color: #fff;
     overflow-x: hidden;
@@ -21,9 +21,7 @@ body {
 }
 
 
-/* =========================================
-   NAV BAR
-========================================= */
+/* NAV BAR */
 
 .nav-container {
     display: flex;
@@ -42,6 +40,11 @@ body {
     display: block;
     width: auto;
     height: 50px;
+    transition: transform .5s ease-in-out;
+}
+
+.nav-container .logo img:hover{
+    transform: scale(1.05);
 }
 
 .nav-links {
@@ -63,8 +66,6 @@ body {
     font-weight: 700;
 
     text-decoration: none;
-
-    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -159,13 +160,15 @@ body {
     font-size: 43px;
     font-family: "Poppins", sans-serif;
     font-weight: 450;
+    text-decoration: underline wavy #fff;
+    transition: text-decoration .4s ease-in-out ;
+
 
     padding-bottom: 15px;
 }
 
 .contact-form h1:hover {
-    text-decoration: underline wavy;
-    text-decoration-color: #0bb88c6e;
+    text-decoration: underline wavy #0ccf9e;
 }
 
 
@@ -345,7 +348,7 @@ body {
 
     background-color: #1a1a1a;
 
-    border: none;
+    border: 2px solid #1a1a1a;
     border-radius: 4px;
 
     cursor: pointer;
@@ -355,11 +358,12 @@ body {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
 
-    transition: opacity 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .contact-btn:hover {
-    opacity: 0.9;
+    color: #1a1a1a;
+    background-color: #fff;
 }
 
 

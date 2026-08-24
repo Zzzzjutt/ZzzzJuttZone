@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 header {
     width: 100%;
 }

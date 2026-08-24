@@ -10,6 +10,10 @@ body {
     overflow-x: hidden;
 }
 
+img{
+    -webkit-user-drag: none;
+}
+
 header {
     width: 100%;
 }
@@ -30,6 +34,11 @@ header {
 .logo img {
     display: block;
     height: 50px;
+    transition: transform .5s ease-in-out;
+}
+
+.logo img:hover{
+    transform: scale(1.05);
 }
 
 .nav-links {
@@ -523,7 +532,6 @@ a:hover {
 
 .umh-logo img {
     height: 150px;
-    cursor: pointer;
     transition: all .5s ease;
 }
 
@@ -575,7 +583,6 @@ a:hover {
 
 .remoteVa-logo img {
     height: 200px;
-    cursor: pointer;
     transition: .5s ease;
 }
 
