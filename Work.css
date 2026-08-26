@@ -547,12 +547,12 @@ a:hover {
     font-family: "Poppins", sans-serif;
     color: #2e2d2d;
     margin: 20px;
+    text-decoration: 4px underline wavy #e0e0e0;
+    transition: text-decoration .3s ease-in-out;
 }
 
 .titile-text:hover {
-    text-decoration: underline;
     text-decoration-color: #fff;
-    text-decoration-style: wavy;
 }
 
 /* umh-design */
