@@ -496,6 +496,84 @@ a:hover {
     transform: scale(1.05);
 }
 
+/* work 12 */
+.work12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.work12 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work12 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 13 */
+.work13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.work13 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work13 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 14 */
+.work14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.work14 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work14 img:hover {
+    transform: scale(1.05);
+}
+
+/* work 15 */
+.work15 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.work15 img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.work15 img:hover {
+    transform: scale(1.05);
+}
+
+
+
 /* See More Btn */
 .see-more-container {
     width: 100%;
