@@ -191,7 +191,7 @@ footer {
 
 .footer-content h3 {
     font-size: 1.25rem;
-    color: #f18930;
+    color: #0ccf9e;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -221,7 +221,7 @@ footer {
     top: 100%;
     width: 0;
     height: 2px;
-    background: #f18930;
+    background: #0ccf9e;
     transition: .5s;
 }
 
@@ -251,15 +251,15 @@ a {
 }
 
 a:hover {
-    color: #f18930;
+    color: #0ccf9e;
 }
 
 .social-icons i:hover {
-    color: #f18930;
+    color: #0ccf9e;
 }
 
 .bottom-bar {
-    background-color: #f18930;
+    background-color: #0ccf9e;
     padding: 10px 0;
     text-align: center;
     margin-top: 50px;
