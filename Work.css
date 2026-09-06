@@ -797,7 +797,11 @@ video {
 .work8,
 .work9,
 .work10,
-.work11 {
+.work11,
+.work12,
+.work13,
+.work14,
+.work15 {
 
     width: 100%;
 
@@ -827,7 +831,11 @@ video {
 .work8 img,
 .work9 img,
 .work10 img,
-.work11 img {
+.work11 img,
+.work12 img,
+.work13 img,
+.work14 img,
+.work15 img {
 
     width: 100%;
     max-width: 100%;
@@ -858,7 +866,11 @@ video {
 .work8 img:hover,
 .work9 img:hover,
 .work10 img:hover,
-.work11 img:hover {
+.work11 img:hover,
+.work12 img:hover,
+.work13 img:hover,
+.work14 img:hover,
+.work15 img:hover {
 
     transform: scale(1.03);
 }
@@ -1004,7 +1016,11 @@ video {
     .work8,
     .work9,
     .work10,
-    .work11 {
+    .work11,
+    .work12,
+    .work13,
+    .work14,
+    .work15 {
 
         gap: 25px;
     }
@@ -1089,7 +1105,11 @@ video {
     .work8,
     .work9,
     .work10,
-    .work11 {
+    .work11,
+    .work12,
+    .work13,
+    .work14,
+    .work15 {
 
         gap: 20px;
     }
@@ -1202,7 +1222,11 @@ video {
     .work8,
     .work9,
     .work10,
-    .work11 {
+    .work11,
+    .work12,
+    .work13,
+    .work14,
+    .work15 {
 
         width: 100%;
 
@@ -1230,7 +1254,11 @@ video {
     .work8 img,
     .work9 img,
     .work10 img,
-    .work11 img {
+    .work11 img,
+    .work12 img,
+    .work13 img,
+    .work14 img,
+    .work15 img {
 
         width: 100%;
 
@@ -1369,7 +1397,11 @@ video {
     .work8,
     .work9,
     .work10,
-    .work11 {
+    .work11,
+    .work12,
+    .work13,
+    .work14,
+    .work15 {
 
         gap: 15px;
 
@@ -1387,7 +1419,11 @@ video {
     .work8 img,
     .work9 img,
     .work10 img,
-    .work11 img {
+    .work11 img,
+    .work12 img,
+    .work13 img,
+    .work14 img,
+    .work15 img {
 
         width: 100%;
 
