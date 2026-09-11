@@ -193,7 +193,7 @@ If you have an idea, let's turn it into something meaningful.
 https://www.zzzzjuttzone.site/
 
 **GitHub:**
-https://github.com/
+[https://github.com/](https://github.com/Zzzzjutt)
 
 ---
 
